@@ -36,7 +36,7 @@ graph_endpoint = f'{pixela_endpoint}/{USERNAME}/graphs'
 # print(response.text)
 today = datetime.today().strftime('%Y%m%d')
 pixel_params = {
-    'date': today,## todays date
+    'date': '20241113',
     'quantity': '1',
 }
 
